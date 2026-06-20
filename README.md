@@ -109,12 +109,12 @@ Upon completion of the inference script, a comprehensive time/frequency analysis
 ==================================================
             METRIC SUMMARY COMPARISON             
 ==================================================
-Metric          | Standard U-Net  | Advanced LU-Net 
+Metric          | Standard U-Net  | Advanced LU-Net
 --------------------------------------------------
-RMSE            | 0.0824          | 0.0312          
-PRD (%)         | 14.3512         | 5.1140          
-SNR_Imp (dB)    | 11.2415         | 19.8531         
-SI-SDR (dB)     | 13.9240         | 22.4119         
+RMSE            | 0.0857          | 0.0255         
+PRD             | 12.4959         | 3.7114         
+SNR_Imp         | 14.2774         | 24.9780        
+SI_SDR          | 18.1587         | 29.0700        
 ==================================================
 ```
 

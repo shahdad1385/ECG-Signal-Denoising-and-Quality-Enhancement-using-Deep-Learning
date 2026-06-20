@@ -50,7 +50,7 @@ Inspired by Ali et al. (2023), this network embeds Bidirectional LSTM (BiLSTM) B
 Clone the repository and install the required machine learning dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecg-denoising-pipeline.git
+git clone https://github.com/shahdad1385/ECG-Signal-Denoising-and-Quality-Enhancement-using-Deep-Learning
 cd ecg-denoising-pipeline
 pip install torch matplotlib numpy pyyaml scipy
 ```

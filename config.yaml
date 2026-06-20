@@ -1,0 +1,20 @@
+system:
+  seed: 42
+  device: "cuda" # Automatically defaults back to cpu inside code if cuda isn't present
+
+dataset:
+  train_samples: 1500
+  test_samples: 300
+  signal_length: 512
+  snr_db: 3.0
+
+hyperparameters:
+  batch_size: 32
+  epochs: 30
+  learning_rate: 0.001
+  early_stopping_patience: 6
+  lr_decay_patience: 3
+
+outputs:
+  weights_dir: "saved_models"
+  report_img: "ecg_comparison_matrix.png"
